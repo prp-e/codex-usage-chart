@@ -24,12 +24,7 @@ You can also ask **“Show my Codex usage chart”** or invoke **`$codex-usage-c
 
 ## What you’ll see
 
-| Window | Used | Remaining | Resets |
-| :-- | --: | --: | :-- |
-| Five-hour | 17% | 83% | Today at 17:31 |
-| Weekly | 3% | 97% | Nov 26 at 12:31 |
-
-*Illustrative values. Each request fetches a fresh snapshot.*
+![Example Codex usage chart showing five-hour and weekly limits, percentages used and remaining, and reset times](docs/usage-preview.png)
 
 The 4:3 chart is displayed inline and saved to `outputs/codex-usage.png` in the active workspace. A refresh replaces that PNG. If an individual usage window is unavailable, the chart labels it accordingly. If PNG rendering is unavailable, the skill returns the live figures as text bars.
 
